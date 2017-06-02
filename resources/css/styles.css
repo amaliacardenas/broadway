@@ -1,7 +1,7 @@
 /*general */
 
 body {
-  text-align: center;
+  font-family: Helvetica;
 }
 
 /*header section*/
@@ -9,10 +9,10 @@ body {
 #header {
   background: url('../images/the-flatiron-building.png') no-repeat;
   height: 350px;
+  text-align: center;
 }
 
 #header h1 {
-  font-family: Helvetica;
   font-size:70px;
   font-weight: bold;
   color: white;
@@ -20,28 +20,30 @@ body {
 
 #header li, a {
   list-style: none;
-  font-family: Helvetica;
   font-size: 18px;
   color: white;
   margin: 10px;
+  text-align: center;
 }
 
 /*our process section*/
 
+#our-process {
+  text-align: center;
+  margin-top: -50px;
+}
+
 h2 {
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
 }
 
 h3 {
-  font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
 }
 
 .main-text {
-  font-family: Helvetica;
   font-size: 14px;
 }
 
@@ -49,11 +51,34 @@ h3 {
 #divider {
   background: url('../images/the-flatiron-building.png') no-repeat;
   height: 30px;
+  text-align: center;
 }
 
 h4 {
-  font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
   color: white;
+  text-align: center;
+}
+
+/*portfolio section*/
+
+#portfolio-section {
+  text-align: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: dimgray;
+  height: 25px;
+  color: white;
+}
+
+footer p {
+  font-size: 11px;
+}
+
+footer a {
+  margin: 1px;
 }
