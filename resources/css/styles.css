@@ -7,7 +7,7 @@ body {
 /*header section*/
 
 #header {
-  background: url('../images/the-flatiron-building.png ') no-repeat;
+  background: url('../images/the-flatiron-building.png') no-repeat;
   height: 350px;
 }
 
@@ -46,3 +46,14 @@ h3 {
 }
 
 /*divider section*/
+#divider {
+  background: url('../images/the-flatiron-building.png') no-repeat;
+  height: 30px;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
